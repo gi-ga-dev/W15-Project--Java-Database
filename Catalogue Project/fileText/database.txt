@@ -1,0 +1,1 @@
+WEEKLY Magazine, ISBN: 978084783, title: Time, year: 2010, pages: 150. Book ISBN: 1997526, title: Harry Potter and the Philosopher's Stone, year: 1997, pages: 223, author: J. K. Rowling, genre: Fantasy. Book ISBN: 88045121, title: Poeta al comando, year: 2003, pages: 256, author: Alessandro Barbero, genre: Storico-Medievale. 

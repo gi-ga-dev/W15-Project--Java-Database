@@ -1,0 +1,47 @@
+=== Analisi Suddivisione Classi/Attributi: ===
+
+Tramite creazione classi, gestire un [catalogo bibliotecario] formato da 
+[libri] e [riviste], entrambi con i seguenti attributi:
+
+- Codice univoco ISBN;
+- Titolo;
+- Anno Pubblicazione;
+- Numero Pagine;
+
+mentre solo i [libri] hanno questi attributi esclusivi:
+- Autore;
+- Genere;
+
+le [riviste] hanno periodicita' [SETTIMANALE, MENSILE, SEMESTRALE]
+
+=== Servizi (utilizz. Java Streams e Lambda Exp.): ===
+
+***Servizi condivisi tra sottoclassi:***
+
+- Aggiunta di un Elemento;
+- Rimozione di un Elemento dato un codice ISBN;
+- Ricerca per ISBN;
+- Ricerca per anno pubblicazione;
+- Salvataggio su disco dell'archivio;
+- Caricamento dal disco dell'archivio;
+
+***Servizi esclusivi classe Book:***
+- Ricerca per Autore;
+- Ricerca per Genere;
+
+// ===========================================
+
+AbstractCatalogue
+	String isbn;
+	String title;
+	int year;
+	int pages;
+	
+BookImp extends AbstractCatalogue
+	(attr. ereditati) +
+	String author
+	String genre
+	
+MagazineImp extends AbstractCatalogue
+	(attr. ereditati) +
+	enum periodicity
